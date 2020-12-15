@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-clip: border-box;   
+}
+body{
+    background: linear-gradient(35deg,#5E7Cb8,#9775CB);
+}
+.main {
+    width: 20%;
+    height: 75%;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+    background-color: rgba(35, 46, 56, 0.664);
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.19), 10px 9px 6px rgba(0,0,0,0.23);
+} 
+.calculatorName{
+    margin: 0 120px 0 120px;
+    color: lightblue;
+}
+.calculatorNamepart{
+    color: red;
+}
+.screen{
+    background-color: black;
+    margin-top: 5px;
+    height: 150px;
+}
+.displayInput{
+    background-color: black;
+    height: 93px;
+    font-size: 40px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: black;
+    text-align: right;
+    color: lightblue;
+}
+.result{
+    border-color: black;
+    height: 55px;
+    width: 100%;
+    font-size: 50px;
+    background-color: black;
+    color: lightblue;
+}
+.line{
+    background-color: red;
+}
+
+.key{
+    width: 70%;
+    height: 64%;
+    border-bottom-left-radius: 15px;
+    background-color: #25314B;
+    float: left;
+}
+
+.control{
+    height: 310px;
+    width: 30%;
+    float: right;
+}
+.button{
+    height: 13%;
+    width: 22%;
+    float: left;
+    margin: 10px;
+}
+.button1{
+    height: 13%;
+    width: 42%;
+    float: left;
+    margin: 10px;
+    margin-left: 25px;
+   
+}
+.num{
+    padding: 6px 6px 6px 5px;
+    color: black;
+    font-size: 25px;  
+    cursor: pointer;
+    border-radius: 100%;
+    width: 42px;
+    height: 45px;
+    margin-left: 2px;
+    background-color:  #25314B;
+}
+
+.num1{
+    padding: 5px 6px 6px 8px;
+    color: black;
+    font-size: 30px;  
+    cursor: pointer;
+    border-radius: 100%;
+    width: 42px;
+    height: 45px;
+    background-color:  #25314B;
+}
+.dot{
+    font-size: 27px;
+    padding: 0px;
+    padding-bottom: 25px;
+}
+.divide{
+    padding-left: 8px;
+}
+.multiply{
+    padding-top: 10px;
+}
+.minus{
+    padding-top: 2px;
+}
+#sol{
+    background-color: red;
+}
+#cancel{
+    font-size:22px;
+}
