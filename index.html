@@ -16,76 +16,9 @@
           <hr class="line">
           <input type="text" id="displayScreen" class="displayInput"  name="displayScreen">
       </div>
-      <div class="key">
-            <div class="button">
-                    <input type="button" class="num leftBracket" id="leftBracket" value="(" name="btn(" onclick="cal('(')">
-            </div>
-            <div class="button">
-                    <input type="button" class="num rightBracket" id="rightBracket" value=")" name="btn)" onclick="cal(')')">
-            </div>
-            <div class="button">
-                    <input type="button" class="num rightBracket" id="cancel" value="CE" name="btn)" onclick="clearScreen()">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="nine" value="9" name="btn9" onclick="cal(9)">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="eight" value="8" name="btn8" onclick="cal(8)">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="seven" value="7" name="btn7" onclick="cal(7)">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="six" value="6" name="btn6" onclick="cal(6)">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="five" value="5" name="btn5" onclick="cal(5)" >
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="four" value="4" name="btn4" onclick="cal(4)">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="three" value="3" name="btn3" onclick="cal(3)">
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="two" value="2" name="btn2" onclick="cal(2)" >
-            </div>
-            <div class="button">
-                <input type="button" class="num" id="one" value="1" name="btn1" onclick="cal(1)">
-            </div>
-            <div class="button double00">
-                
-                    <input type="button" class="num" id="zero" value="0" name="btnZero" onclick="cal(0)">
-            </div>
-            <div class="button">
-                    <input type="button" class="num dot" id="stop" value="." name="btnDot" onclick="cal('.')">
-            </div>
-            <div class="button">
-                
-                <input type="button" class="num" id="percent" value="%" name="btn1" onclick="cal('%')">
-            </div>
-                                            
-
-        </div>
-        <div class="control">
-            <div class="button1">
-                <input type="button" class="num1 divide" id="division" value="/" name="dividBtn" onclick="cal('/')" >
-            </div>
-            <div class="button1">
-                <input type="button" class="num1 multiply"id="multiplication" value="*" name="multiplyBtn" onclick="cal('*')" >
-            </div>
-            <div class="button1">
-                <input type="button" class="num1 minus" id="sub" value="-" name="minusBtn" onclick="cal('-')">
-            </div>
-            <div class="button1">
-                <input type="button" class="num1 plus" id="add" value="+"  name="addBtn" onclick="cal('+')">
-                
-            </div>
-            <div class="button1">
-                <input type="button" class="num1" id="sol" value="=" name="equal" onclick="equalFunc()">  
-            </div>
-
-        </div>
+      
+      <div class="key" id="key"> </div>
+      <div class="control" id="controls"></div>
     </form>
   </div>
   <script src="script.js"></script>
